@@ -30,6 +30,7 @@ class CR4StartupMoviesMenu extends CR4MenuBase
 	{
 		var menuName : name;
 		var audioLanguageName : string;
+		CloseMenu();
 		SetupMoviesData();
 		m_flashValueStorage = GetMenuFlashValueStorage();
 		super.OnConfigUI();
