@@ -277,7 +277,7 @@ class CR4AlchemyMenu extends CR4ListBaseMenu
 			l_DataFlashObject.SetMemberFlashUInt(  "tag", NameToFlashUInt(l_Tag) );
 			l_DataFlashObject.SetMemberFlashString(  "dropDownLabel", l_GroupTitle );
 			l_DataFlashObject.SetMemberFlashUInt(  "dropDownTag",  NameToFlashUInt(l_GroupTag) );
-			l_DataFlashObject.SetMemberFlashBool(  "dropDownOpened", true ); 
+			l_DataFlashObject.SetMemberFlashBool(  "dropDownOpened", false ); 
 			l_DataFlashObject.SetMemberFlashString(  "dropDownIcon", "icons/monsters/ICO_MonsterDefault.png" );
 			
 			l_DataFlashObject.SetMemberFlashBool( "isNew", l_IsNew );
